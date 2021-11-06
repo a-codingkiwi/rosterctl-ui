@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import {Roster} from "./components";
-import "tailwindcss/tailwind.css"
 
 export function App() {
     const [rosters,setRosters] = useState([]);
