@@ -1,0 +1,25 @@
+{
+    "rosters":[
+        {
+            "id":"20WgMt9tel70V6NrBiyfVRVKzpY",
+            "ksuid":"20WgMt9tel70V6NrBiyfVRVKzpY",
+            "seq":1,
+            "name":"Feline Team 2021",
+            "start_date":"",
+            "end_date":"",
+            "shifts":[
+                {
+                    "name":"Monday",
+                    "date":"",
+                    "seq":1,
+                    "areas":[
+                        {
+                            "name":"cattery",
+                            "members":["Test 1"]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
