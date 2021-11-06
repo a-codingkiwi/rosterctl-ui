@@ -2,16 +2,62 @@
     "rosters":[
         {
             "id":"20WgMt9tel70V6NrBiyfVRVKzpY",
-            "ksuid":"20WgMt9tel70V6NrBiyfVRVKzpY",
             "seq":1,
-            "name":"Feline Team 2021",
+            "name":"Feline Team  2021",
             "start_date":"",
             "end_date":"",
             "shifts":[
                 {
                     "name":"Monday",
-                    "date":"",
+                    "date":"2021-01-01",
+                    "id":"listkey1",
+    
                     "seq":1,
+                    "areas":[
+                        {
+                            "name":"cattery",
+                            "members":["Test 1"]
+                        }
+                    ]
+                },
+                {
+                    "name":"Tuesday",
+                    "id":"listkey2",
+                    "date":"",
+                    "seq":2,
+                    "areas":[
+                        {
+                            "name":"cattery",
+                            "members":["Test 1"]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id":"20WqheC2GanzCMiMwirnwqr28aQ",
+            "seq":2,
+            "name":"Feline Team 2022",
+            "start_date":"",
+            "end_date":"",
+            "shifts":[
+                {
+                    "name":"Monday",
+                    "id":"listkey1",
+                    "date":"2022-01-01",
+                    "seq":1,
+                    "areas":[
+                        {
+                            "name":"cattery",
+                            "members":["Test 1"]
+                        }
+                    ]
+                },
+                {
+                    "name":"Tuesday",
+                    "id":"listkey2",
+                    "date":"",
+                    "seq":2,
                     "areas":[
                         {
                             "name":"cattery",
