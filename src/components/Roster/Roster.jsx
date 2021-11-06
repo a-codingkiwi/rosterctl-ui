@@ -4,7 +4,8 @@ import { Shift } from "..";
 export default function (props) {
     const [roster, setRoster] = useState({ shifts: [] });
     const [shifts, setShifts] = useState([]);
-
+    
+    //TODO: consider extracting to some sort of "api" sdk for future?
     async function fetchRoster(id){
         if(!id) return;
         
