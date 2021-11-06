@@ -6,6 +6,8 @@ export default function (props) {
     const [shifts, setShifts] = useState([]);
 
     async function fetchRoster(id){
+        if(!id) return;
+        
         try {
             const resp = await fetch(`api/rosters/${id}`);
             const content = await resp.json();
